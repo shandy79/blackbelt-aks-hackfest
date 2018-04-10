@@ -14,7 +14,7 @@
       <div class="col-lg-6">
       </div>
       <div class="col-lg-12 credits">
-        Vessel Global Blackbelt Forge
+        Vessel Global Blackbelt Forge and Foundry
       </div>
       <div class="col-lg-6">
       </div>
