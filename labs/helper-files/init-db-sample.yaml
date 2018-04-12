@@ -30,8 +30,10 @@ spec:
       labels:
         name:  heroes-db
     spec:
+      imagePullSecrets:
+        - name: acr-secret
       containers:
-      - image: mongo:3.6.1-jessie
+      - image: shandy3azurecontainerregistry.azurecr.io/azureworkshop/rating-db:v1
         name: heroes-db-cntnr
         resources:
           requests:
